@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Магазин</title>
 </head>
+<body>
 <header class="main-header">
     <nav class="main-navigation">
         <a class="main-header-logo" href="index.html"><img src="img/index-logo.svg"
@@ -36,33 +37,33 @@
                 <ul>
                     <li class="filter-option">
                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
-                               name="baxter-of-california" checked>
-                        Baxter of California
+                               name="baxter-of-california" id="filter-baxter-of-california" checked>
+                        <label for="filter-baxter-of-california">Baxter of California</label>
                     </li>
                     <li class="filter-option">
                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
-                               name="mr-natty">
-                        Mr Natty
+                               name="mr-natty" id="filter-mr-natty">
+                        <label for="filter-mr-natty">Mr Natty</label>
                     </li>
                     <li class="filter-option">
                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
-                               name="suavecito">
-                        Suavecito
+                               name="suavecito" id="filter-suavecito">
+                        <label for="filter-suavecito">Suavecito</label>
                     </li>
                     <li class="filter-option">
                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
-                               name="malin-goetz">
-                        Malin+Goetz
+                               name="malin-goetz" id="filter-malin-goetz">
+                        <label for="filter-malin-goetz">Malin+Goetz</label>
                     </li>
                     <li class="filter-option">
                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
-                               name="murrays">
-                        Murray's
+                               name="murrays" id="filter-murrays">
+                        <label for="filter-murrays">Murray's</label>
                     </li>
                     <li class="filter-option">
                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
-                               name="american-crew">
-                        American Crew
+                               name="american-crew" id="filter-american-crew" checked>
+                        <label for="filter-american-crew">American Crew</label>
                     </li>
                 </ul>
             </fieldset>
@@ -72,20 +73,20 @@
                     <li class="filter-option">
                         <input class="visually-hidden filter-input filter-input-radio" type="radio"
                                name="product-group"
-                               value="shaving">
-                        Бритвенные принадлежности
+                               value="shaving" id="filter-shave">
+                        <label for="filter-shave">Бритвенные принадлежности</label>
                     </li>
                     <li>
                         <input class="visually-hidden filter-input filter-input-radio" type="radio"
                                name="product-group"
-                               value="hair-care" checked>
-                        Средства для ухода
+                               value="hair-care" id="filter-care" checked>
+                        <label for="filter-care">Средства для ухода</label>
                     </li>
                     <li>
                         <input class="visually-hidden filter-input filter-input-radio" type="radio"
                                name="product-group"
-                               value="accessories">
-                        Аксессуары
+                               value="accessories" id="filter-accessories">
+                        <label for="filter-accessories">Аксессуары</label>
                     </li>
                 </ul>
             </fieldset>
@@ -100,20 +101,17 @@
                     <a href="catalog-item.html">
                         <span class="catalog-category">Набор для путешествий</span>
                         <span class="catalog-item-title">«Baxter of California»</span>
-                    </a>
                 </h3>
                 <p class="catalog-item-image">
-                    <a href="catalog-item.html">
-                        <img src="img/product-1.jpg" alt="Набор для путешествий «Baxter of California»" width="220"
-                             height="165">
-                    </a>
+                    <img src="img/product-1.jpg" alt="Набор для путешествий «Baxter of California»" width="220"
+                         height="165">
                 </p>
+                     </a>
                 <p class="catalog-item-price">
                     <b>1 450 ₴</b>
                     <a class="button" href="#">Купить</a>
                 </p>
             </li>
-            <li class="catalog-item">
                 <h3>
                     <a href="catalog-item.html">
                         <span class="catalog-category">Набор для путешествий</span>
